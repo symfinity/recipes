@@ -1,0 +1,10 @@
+{
+    "recipes": {},
+    "branch": "main",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/symfinity/recipes",
+        "origin_template": "{package}:{version}@github.com/symfinity/recipes:main",
+        "recipe_template": "https://api.github.com/repos/symfinity/recipes/contents/{package_dotted}.{version}.json?ref=flex/main"
+    }
+}
