@@ -1,0 +1,18 @@
+{
+    "manifests": {
+        "symfinity/fs-random-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Symfinity\\FS\\RandomBundle\\SymfinityFSRandomBundleBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": [],
+            "ref": "e7fa50bad09fe378b0ea16c25149d0e1f7e59931"
+        }
+    }
+}
