@@ -1,10 +1,29 @@
 {
-    "recipes": {},
+    "aliases": [],
+    "recipes": {
+        "neuralglitch/font-manager": [
+            "0.1"
+        ],
+        "neuralglitch/google-fonts": [
+            "0.1"
+        ],
+        "neuralglitch/make-bundle": [
+            "0.1"
+        ],
+        "neuralglitch/omnia-ipsum": [
+            "0.1"
+        ]
+    },
+    "recipe-conflicts": [],
+    "versions": [],
     "branch": "main",
     "is_contrib": true,
     "_links": {
-        "repository": "github.com/symfinity/recipes",
-        "origin_template": "{package}:{version}@github.com/symfinity/recipes:main",
-        "recipe_template": "https://api.github.com/repos/symfinity/recipes/contents/{package_dotted}.{version}.json?ref=flex/main"
+        "repository": "github.com/neuralglitch/symfony-recipes",
+        "origin_template": "{package}:{version}@github.com/neuralglitch/symfony-recipes:main",
+        "recipe_template": "https://raw.githubusercontent.com/neuralglitch/symfony-recipes/flex/main/{package_dotted}.{version}.json",
+        "recipe_template_relative": "{package_dotted}.{version}.json",
+        "archived_recipes_template": "https://raw.githubusercontent.com/neuralglitch/symfony-recipes/flex/main/archived/{package_dotted}/{ref}.json",
+        "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
     }
 }
