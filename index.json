@@ -1,10 +1,6 @@
 {
     "aliases": [],
-    "recipes": {
-        "symfinity/fs-random-bundle": [
-            "0.1"
-        ]
-    },
+    "recipes": [],
     "recipe-conflicts": [],
     "versions": [],
     "branch": "main",

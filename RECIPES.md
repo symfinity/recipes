@@ -4,4 +4,3 @@ Additional recipes can be found on the [Main Recipes Repository](https://github.
 
 | Package | Latest Recipe |
 | --- | --- |
-| [symfinity/fs-random-bundle](https://packagist.org/packages/symfinity/fs-random-bundle) | [0.1](../../../tree/main/symfinity/fs-random-bundle/0.1) |
