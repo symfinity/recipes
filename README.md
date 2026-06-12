@@ -62,4 +62,4 @@ Thanks to the Symfony community for recipes-contrib and Flex.
 
 ---
 
-Copyright (c) 2026 [symfinity.net](https://symfinity.net)
+Copyright (c) 2026-present [symfinity.net](https://symfinity.net)
