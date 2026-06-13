@@ -1,5 +1,7 @@
 <div align="center">
 
+[![Logo](https://avatars.githubusercontent.com/u/246582257?s=200&v=4)](https://github.com/symfinity)
+
 # Recipes
 
 ### Custom Symfony Flex recipes tailored for **symfinity** branded Symfony packages
