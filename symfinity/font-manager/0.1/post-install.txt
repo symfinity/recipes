@@ -1,0 +1,7 @@
+
+<bg=blue;fg=white> Symfinity </>  symfinity/font-manager
+
+<fg=cyan>Successor to neuralglitch/font-manager and neuralglitch/google-fonts.</>
+
+<fg=cyan>Quick:</> <fg=green>bin/console fonts:status</>
+

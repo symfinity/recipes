@@ -1,0 +1,7 @@
+
+<bg=blue;fg=white> Symfinity </>  symfinity/omnia-ipsum
+
+<fg=yellow>Dev dependency</> — placeholder and fixture text for templates; not for production content.
+
+<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/symfinity/tree/main/packages/omnia-ipsum</>
+
