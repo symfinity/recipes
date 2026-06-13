@@ -25,6 +25,7 @@ To enable recipes from this repository in your project, add this endpoint in you
 {
     "extra": {
         "symfony": {
+            "allow-contrib": true,
             "endpoint": [
                 "https://api.github.com/repos/symfinity/recipes/contents/index.json?ref=flex/main",
                 "flex://defaults"
