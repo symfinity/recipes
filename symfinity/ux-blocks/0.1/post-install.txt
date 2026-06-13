@@ -1,0 +1,6 @@
+
+<bg=blue;fg=white> Symfinity </>  symfinity/ux-blocks
+
+Registry schema and shared test helpers for the UX Blocks component family.
+
+<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/ux-blocks</>

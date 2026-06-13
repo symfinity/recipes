@@ -1,0 +1,10 @@
+
+<bg=blue;fg=white> Symfinity </>  symfinity/ux-blocks-core
+
+Atomic Symfony UX Twig components — buttons, forms, layout, feedback, and media roles with ui-kernel CSS.
+
+<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/ux-blocks-core</>
+
+Requires <fg=yellow>symfinity/ui-kernel</> — install ui-kernel first or require it alongside this package.
+
+<fg=yellow>symfinity/ux-blocks</> resolves from Packagist as a dependency.

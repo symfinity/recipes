@@ -1,0 +1,12 @@
+{
+    "bundles": {
+        "Symfinity\\UxBlocksCore\\SymfinityUxBlocksCoreBundle": [
+            "all"
+        ]
+    },
+    "composer.json": {
+        "require": {
+            "symfinity/ux-blocks-core": "^0.1"
+        }
+    }
+}
