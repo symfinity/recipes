@@ -6,6 +6,9 @@
         ],
         "symfinity/omnia-ipsum": [
             "0.1"
+        ],
+        "symfinity/ui-kernel": [
+            "0.1"
         ]
     },
     "recipe-conflicts": [],
