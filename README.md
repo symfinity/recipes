@@ -4,7 +4,7 @@
 
 ### Custom Symfony Flex recipes tailored for **symfinity** branded Symfony packages
 
-[![symfinity/repositories](https://img.shields.io/badge/symfony-recipes-374151.svg?style=flat)](https://github.com/symfony/recipes)
+[![symfinity/repositories](https://img.shields.io/badge/symfinity-repos-213a5d.svg?style=flat)](https://github.com/symfinity/repositories)
 <br>
 [![php](https://img.shields.io/badge/PHP-^8.1-4F5B93.svg?style=flat)](https://www.php.net)
 [![composer](https://img.shields.io/badge/composer-^2.1-D48822.svg?style=flat)](https://getcomposer.org)
