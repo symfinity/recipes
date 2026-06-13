@@ -1,0 +1,32 @@
+{
+    "manifests": {
+        "symfinity/ux-blocks-core": {
+            "manifest": {
+                "bundles": {
+                    "Symfinity\\UxBlocksCore\\SymfinityUxBlocksCoreBundle": [
+                        "all"
+                    ]
+                },
+                "composer.json": {
+                    "require": {
+                        "symfinity/ux-blocks-core": "^0.1"
+                    }
+                },
+                "post-install-output": [
+                    "",
+                    "<bg=blue;fg=white> Symfinity </>  symfinity/ux-blocks-core",
+                    "",
+                    "Atomic Symfony UX Twig components \u2014 buttons, forms, layout, feedback, and media roles with ui-kernel CSS.",
+                    "",
+                    "<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/ux-blocks-core</>",
+                    "",
+                    "Requires <fg=yellow>symfinity/ui-kernel</> \u2014 install ui-kernel first or require it alongside this package.",
+                    "",
+                    "<fg=yellow>symfinity/ux-blocks</> resolves from Packagist as a dependency."
+                ]
+            },
+            "files": [],
+            "ref": "8981be4448f85b96f14e1978bda5ae265fdaa336"
+        }
+    }
+}

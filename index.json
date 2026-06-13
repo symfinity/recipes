@@ -2,12 +2,19 @@
     "aliases": [],
     "recipes": {
         "symfinity/font-manager": [
-            "0.1"
+            "0.1",
+            "0.2"
         ],
         "symfinity/omnia-ipsum": [
             "0.1"
         ],
         "symfinity/ui-kernel": [
+            "0.1"
+        ],
+        "symfinity/ux-blocks": [
+            "0.1"
+        ],
+        "symfinity/ux-blocks-core": [
             "0.1"
         ]
     },

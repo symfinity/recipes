@@ -1,0 +1,28 @@
+{
+    "manifests": {
+        "symfinity/ux-blocks": {
+            "manifest": {
+                "bundles": {
+                    "Symfinity\\UxBlocks\\SymfinityUxBlocksBundle": [
+                        "all"
+                    ]
+                },
+                "composer.json": {
+                    "require": {
+                        "symfinity/ux-blocks": "^0.1"
+                    }
+                },
+                "post-install-output": [
+                    "",
+                    "<bg=blue;fg=white> Symfinity </>  symfinity/ux-blocks",
+                    "",
+                    "Registry schema and shared test helpers for the UX Blocks component family.",
+                    "",
+                    "<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/ux-blocks</>"
+                ]
+            },
+            "files": [],
+            "ref": "39a3bec8bb054eebb1ae67b7b539bde84fe83bdd"
+        }
+    }
+}
