@@ -4,12 +4,14 @@
 
 ### Custom Symfony Flex recipes tailored for **symfinity** branded Symfony packages
 
-[![symfony/recipes](https://img.shields.io/badge/symfony-recipes-374151.svg?style=flat)](https://github.com/symfony/recipes)
-[![symfony/recipes-contrib](https://img.shields.io/badge/symfony-recipes--contrib-374151.svg?style=flat)](https://github.com/symfony/recipes-contrib)
-
+[![symfinity/repositories](https://img.shields.io/badge/symfony-recipes-374151.svg?style=flat)](https://github.com/symfony/recipes)
+<br>
 [![php](https://img.shields.io/badge/PHP-^8.1-4F5B93.svg?style=flat)](https://www.php.net)
 [![composer](https://img.shields.io/badge/composer-^2.1-D48822.svg?style=flat)](https://getcomposer.org)
 [![symfony](https://img.shields.io/badge/symfony/flex-^2-374151.svg?style=flat)](https://github.com/symfony/flex)
+<br>
+[![symfony/recipes](https://img.shields.io/badge/symfony-recipes-374151.svg?style=flat)](https://github.com/symfony/recipes)
+[![symfony/recipes-contrib](https://img.shields.io/badge/symfony-recipes--contrib-374151.svg?style=flat)](https://github.com/symfony/recipes-contrib)
 
 </div>
 
