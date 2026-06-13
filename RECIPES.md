@@ -4,3 +4,5 @@ Additional recipes can be found on the [Main Recipes Repository](https://github.
 
 | Package | Latest Recipe |
 | --- | --- |
+| [symfinity/font-manager](https://packagist.org/packages/symfinity/font-manager) | [0.1](../../../tree/main/symfinity/font-manager/0.1) |
+| [symfinity/omnia-ipsum](https://packagist.org/packages/symfinity/omnia-ipsum) | [0.1](../../../tree/main/symfinity/omnia-ipsum/0.1) |

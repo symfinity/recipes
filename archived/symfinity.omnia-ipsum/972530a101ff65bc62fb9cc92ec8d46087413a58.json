@@ -1,0 +1,32 @@
+{
+    "manifests": {
+        "symfinity/omnia-ipsum": {
+            "manifest": {
+                "bundles": {
+                    "Symfinity\\OmniaIpsum\\OmniaIpsumBundle": [
+                        "dev",
+                        "test"
+                    ]
+                },
+                "copy-from-package": {
+                    "config/packages/omnia_ipsum.yaml": "%CONFIG_DIR%/packages/omnia_ipsum.yaml"
+                },
+                "composer.json": {
+                    "require": {
+                        "symfinity/omnia-ipsum": "^0.1"
+                    }
+                },
+                "post-install-output": [
+                    "",
+                    "<bg=blue;fg=white> Symfinity </>  symfinity/omnia-ipsum",
+                    "",
+                    "<fg=yellow>Dev dependency</> \u2014 placeholder and fixture text for templates; not for production content.",
+                    "",
+                    "<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/symfinity/tree/main/packages/omnia-ipsum</>"
+                ]
+            },
+            "files": [],
+            "ref": "972530a101ff65bc62fb9cc92ec8d46087413a58"
+        }
+    }
+}

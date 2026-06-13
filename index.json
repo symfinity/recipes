@@ -1,6 +1,13 @@
 {
     "aliases": [],
-    "recipes": [],
+    "recipes": {
+        "symfinity/font-manager": [
+            "0.1"
+        ],
+        "symfinity/omnia-ipsum": [
+            "0.1"
+        ]
+    },
     "recipe-conflicts": [],
     "versions": [],
     "branch": "main",
