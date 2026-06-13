@@ -4,7 +4,7 @@
 
 # Recipes
 
-### Custom Symfony Flex recipes tailored for **symfinity** branded Symfony packages
+### Custom Flex recipes tailored for **Symfinity** branded Symfony packages
 
 [![symfinity/repos](https://img.shields.io/badge/symfinity-repositories-213a5d.svg?style=flat)](https://github.com/orgs/symfinity/repositories)
 <br>
