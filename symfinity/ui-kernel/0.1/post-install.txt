@@ -1,0 +1,6 @@
+
+<bg=blue;fg=white> Symfinity </>  symfinity/ui-kernel
+
+Design tokens, themes, and generated CSS for Symfony.
+
+<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/ui-kernel</>
