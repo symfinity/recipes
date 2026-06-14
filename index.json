@@ -2,8 +2,7 @@
     "aliases": [],
     "recipes": {
         "symfinity/font-manager": [
-            "0.1",
-            "0.2"
+            "0.1"
         ],
         "symfinity/omnia-ipsum": [
             "0.1"
