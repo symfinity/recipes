@@ -7,10 +7,5 @@
     },
     "copy-from-package": {
         "config/packages/font_manager.yaml": "%CONFIG_DIR%/packages/font_manager.yaml"
-    },
-    "composer.json": {
-        "require": {
-            "symfinity/font-manager": "^0.1"
-        }
     }
 }

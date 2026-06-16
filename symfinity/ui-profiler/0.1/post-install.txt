@@ -1,0 +1,7 @@
+  * symfinity/ui-profiler installed (dev/test only).
+
+    Chameleon Web Profiler chrome requires symfinity/ui-kernel and ux-blocks packages.
+    Ensure APP_ENV=dev and web-profiler is enabled.
+
+    Maintainer smoke: org dogfood SLUG=ui-lab or symfinity-ui-profiler overlay.
+    Docs: vendor/symfinity/ui-profiler/docs/quickstart.md
