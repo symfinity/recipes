@@ -1,0 +1,28 @@
+{
+    "manifests": {
+        "symfinity/ui-profiler": {
+            "manifest": {
+                "bundles": {
+                    "Symfinity\\UiProfiler\\UiProfilerBundle": [
+                        "dev",
+                        "test"
+                    ]
+                },
+                "copy-from-package": {
+                    "config/packages/ui_profiler.yaml": "%CONFIG_DIR%/packages/ui_profiler.yaml"
+                },
+                "post-install-output": [
+                    "  * symfinity/ui-profiler installed (dev/test only).",
+                    "",
+                    "    Chameleon Web Profiler chrome requires symfinity/ui-kernel and ux-blocks packages.",
+                    "    Ensure APP_ENV=dev and web-profiler is enabled.",
+                    "",
+                    "    Maintainer smoke: org dogfood SLUG=ui-lab or symfinity-ui-profiler overlay.",
+                    "    Docs: vendor/symfinity/ui-profiler/docs/quickstart.md"
+                ]
+            },
+            "files": [],
+            "ref": "627a487ee8360bab5dcbacb838f4cbab48ba2d3d"
+        }
+    }
+}

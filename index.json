@@ -10,6 +10,12 @@
         "symfinity/ui-kernel": [
             "0.1"
         ],
+        "symfinity/ui-profiler": [
+            "0.1"
+        ],
+        "symfinity/ui-themer": [
+            "0.1"
+        ],
         "symfinity/ux-blocks": [
             "0.1"
         ],
