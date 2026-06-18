@@ -1,0 +1,69 @@
+{
+    "bundles": {
+        "Symfinity\\Bundle\\PokerPlanner\\PokerPlannerBundle": [
+            "all"
+        ]
+    },
+    "copy-from-package": {
+        "config/packages/poker_planner.yaml": "%CONFIG_DIR%/packages/poker_planner.yaml",
+        "config/packages/mercure.yaml": "%CONFIG_DIR%/packages/mercure.yaml",
+        "config/routes/poker_planner.yaml": "%CONFIG_DIR%/routes/poker_planner.yaml",
+        "install/assets/app.poker_planner.js": "assets/app.poker_planner.js",
+        "install/assets/controllers.json": "assets/controllers.json"
+    },
+    "require": {
+        "predis/predis": "^2.2|^3.0",
+        "symfony/ux-icons": "^2.0|^3.0"
+    },
+    "env": {
+        "#1": "Redis — room storage; Docker Compose service name: redis",
+        "REDIS_URL": "redis://redis:6379",
+        "#2": "Mercure — dunglas/symfony-docker ships Mercure in Caddy (no extra hub container)",
+        "MERCURE_URL": "http://php/.well-known/mercure",
+        "MERCURE_PUBLIC_URL": "https://localhost/.well-known/mercure",
+        "MERCURE_JWT_SECRET": "!ChangeThisMercureHubJWTSecretKey!"
+    },
+    "docker-compose": {
+        "compose.yaml": {
+            "services": [
+                "redis:",
+                "  image: redis:7-alpine",
+                "  restart: unless-stopped",
+                "  healthcheck:",
+                "    test: [\"CMD\", \"redis-cli\", \"ping\"]",
+                "    timeout: 3s",
+                "    retries: 5",
+                "    start_period: 5s",
+                "php:",
+                "  depends_on:",
+                "    redis:",
+                "      condition: service_healthy"
+            ]
+        },
+        "compose.override.yaml": {
+            "services": [
+                "redis:",
+                "  ports:",
+                "    - \"6379\""
+            ]
+        }
+    },
+    "add-lines": {
+        "assets/app.js": {
+            "lines": [
+                "import './app.poker_planner.js';"
+            ],
+            "position": "bottom"
+        }
+    },
+    "composer-scripts": {
+        "cache:clear": "symfony-cmd",
+        "importmap:install": "symfony-cmd",
+        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+    },
+    "composer-commands": {
+        "commands": [
+            "ux:icons:import hugeicons:joker --no-interaction"
+        ]
+    }
+}
