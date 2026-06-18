@@ -1,0 +1,93 @@
+{
+    "manifests": {
+        "symfinity/poker-planner": {
+            "manifest": {
+                "bundles": {
+                    "Symfinity\\Bundle\\PokerPlanner\\PokerPlannerBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-package": {
+                    "config/packages/poker_planner.yaml": "%CONFIG_DIR%/packages/poker_planner.yaml",
+                    "config/packages/mercure.yaml": "%CONFIG_DIR%/packages/mercure.yaml",
+                    "config/routes/poker_planner.yaml": "%CONFIG_DIR%/routes/poker_planner.yaml",
+                    "install/assets/app.poker_planner.js": "assets/app.poker_planner.js",
+                    "install/assets/controllers.json": "assets/controllers.json"
+                },
+                "require": {
+                    "predis/predis": "^2.2|^3.0",
+                    "symfony/ux-icons": "^2.0|^3.0"
+                },
+                "env": {
+                    "#1": "Redis \u2014 room storage; Docker Compose service name: redis",
+                    "REDIS_URL": "redis://redis:6379",
+                    "#2": "Mercure \u2014 dunglas/symfony-docker ships Mercure in Caddy (no extra hub container)",
+                    "MERCURE_URL": "http://php/.well-known/mercure",
+                    "MERCURE_PUBLIC_URL": "https://localhost/.well-known/mercure",
+                    "MERCURE_JWT_SECRET": "!ChangeThisMercureHubJWTSecretKey!"
+                },
+                "docker-compose": {
+                    "compose.yaml": {
+                        "services": [
+                            "redis:",
+                            "  image: redis:7-alpine",
+                            "  restart: unless-stopped",
+                            "  healthcheck:",
+                            "    test: [\"CMD\", \"redis-cli\", \"ping\"]",
+                            "    timeout: 3s",
+                            "    retries: 5",
+                            "    start_period: 5s",
+                            "php:",
+                            "  depends_on:",
+                            "    redis:",
+                            "      condition: service_healthy"
+                        ]
+                    },
+                    "compose.override.yaml": {
+                        "services": [
+                            "redis:",
+                            "  ports:",
+                            "    - \"6379\""
+                        ]
+                    }
+                },
+                "add-lines": {
+                    "assets/app.js": {
+                        "lines": [
+                            "import './app.poker_planner.js';"
+                        ],
+                        "position": "bottom"
+                    }
+                },
+                "composer-scripts": {
+                    "cache:clear": "symfony-cmd",
+                    "importmap:install": "symfony-cmd",
+                    "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                },
+                "composer-commands": {
+                    "commands": [
+                        "ux:icons:import hugeicons:joker --no-interaction"
+                    ]
+                },
+                "post-install-output": [
+                    "<bg=blue;fg=white> Symfinity </>  symfinity/poker-planner",
+                    "",
+                    "Planning poker for Symfony \u2014 Redis rooms, Mercure realtime, hidden votes.",
+                    "",
+                    "<fg=yellow>symfony-docker quick path (Symfony 7.4)</>",
+                    "",
+                    "  1. Recipe added Redis to compose.yaml and wired REDIS_URL / Mercure env.",
+                    "  2. Rebuild and start: docker compose up -d --wait",
+                    "  3. Open https://localhost/ (or your SERVER_NAME) \u2014 start a room, share /r/{uuid}.",
+                    "",
+                    "<fg=cyan>Existing app.js?</> Recipe appends import ./app.poker_planner.js \u2014 merge manually if needed.",
+                    "<fg=cyan>Existing controllers.json?</> Recipe may replace assets/controllers.json \u2014 merge Stimulus entries from vendor/symfinity/poker-planner/install/assets/controllers.json if you customized the file.",
+                    "",
+                    "Docs: vendor/symfinity/poker-planner/docs/installation.md#symfony-docker"
+                ]
+            },
+            "files": [],
+            "ref": "096887272f7bee898a6fdc331956ce716c77ecfb"
+        }
+    }
+}
