@@ -3,5 +3,8 @@
         "Symfinity\\UxBlocksCore\\SymfinityUxBlocksCoreBundle": [
             "all"
         ]
+    },
+    "copy-from-package": {
+        "config/routes/ux_blocks_core.yaml": "%CONFIG_DIR%/routes/ux_blocks_core.yaml"
     }
 }

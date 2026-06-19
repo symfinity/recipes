@@ -6,6 +6,6 @@
         ]
     },
     "copy-from-package": {
-        "config/packages/omnia_ipsum.yaml": "%CONFIG_DIR%/packages/omnia_ipsum.yaml"
+        "config/packages/symfinity_omnia_ipsum.yaml": "%CONFIG_DIR%/packages/symfinity_omnia_ipsum.yaml"
     }
 }

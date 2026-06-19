@@ -6,6 +6,6 @@
         ]
     },
     "copy-from-package": {
-        "config/packages/font_manager.yaml": "%CONFIG_DIR%/packages/font_manager.yaml"
+        "config/packages/symfinity_font_manager.yaml": "%CONFIG_DIR%/packages/symfinity_font_manager.yaml"
     }
 }

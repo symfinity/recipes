@@ -5,7 +5,7 @@
         ]
     },
     "copy-from-package": {
-        "config/packages/poker_planner.yaml": "%CONFIG_DIR%/packages/poker_planner.yaml",
+        "config/packages/symfinity_poker_planner.yaml": "%CONFIG_DIR%/packages/symfinity_poker_planner.yaml",
         "config/packages/mercure.yaml": "%CONFIG_DIR%/packages/mercure.yaml",
         "config/routes/poker_planner.yaml": "%CONFIG_DIR%/routes/poker_planner.yaml",
         "install/assets/app.poker_planner.js": "assets/app.poker_planner.js",
