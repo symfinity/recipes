@@ -1,7 +1,11 @@
+                       ___ __       __ __         
+.-----.--.--.--------.'  _|__.-----|__|  |_.--.--.
+|__ --|  |  |  |  |  |   _|  |  |  |  |   _|  |  |
+|_____|___  |__|__|__|__| |__|__|__|__|____|___  |
+      |_____|                              |_____|
 
 <bg=blue;fg=white> Symfinity </>  symfinity/omnia-ipsum
 
 <fg=yellow>Dev dependency</> — placeholder and fixture text for templates; not for production content.
 
-<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/symfinity/tree/main/packages/omnia-ipsum</>
-
+<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/omnia-ipsum</>

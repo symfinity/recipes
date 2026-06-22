@@ -1,7 +1,11 @@
+                       ___ __       __ __         
+.-----.--.--.--------.'  _|__.-----|__|  |_.--.--.
+|__ --|  |  |  |  |  |   _|  |  |  |  |   _|  |  |
+|_____|___  |__|__|__|__| |__|__|__|__|____|___  |
+      |_____|                              |_____|
 
 <bg=blue;fg=white> Symfinity </>  symfinity/font-manager
 
-<fg=cyan>Successor to neuralglitch/font-manager and neuralglitch/google-fonts.</>
+<fg=yellow>Dev dependency</> - Google Font locking and Fonttrio pairing import for theme CSS variables; not for production runtime.
 
-<fg=cyan>Quick:</> <fg=green>bin/console fonts:status</>
-
+<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/font-manager</>

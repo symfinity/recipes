@@ -1,14 +1,11 @@
+                       ___ __       __ __         
+.-----.--.--.--------.'  _|__.-----|__|  |_.--.--.
+|__ --|  |  |  |  |  |   _|  |  |  |  |   _|  |  |
+|_____|___  |__|__|__|__| |__|__|__|__|____|___  |
+      |_____|                              |_____|
+
 <bg=blue;fg=white> Symfinity </>  symfinity/poker-planner
 
-Planning poker for Symfony — Redis rooms, Mercure realtime, hidden votes.
+<fg=yellow>Planning poker</> — Redis rooms, Mercure realtime, hidden votes.
 
-<fg=yellow>symfony-docker quick path (Symfony 7.4)</>
-
-  1. Recipe added Redis to compose.yaml and wired REDIS_URL / Mercure env.
-  2. Rebuild and start: docker compose up -d --wait
-  3. Open https://localhost/ (or your SERVER_NAME) — start a room, share /r/{uuid}.
-
-<fg=cyan>Existing app.js?</> Recipe appends import ./app.poker_planner.js — merge manually if needed.
-<fg=cyan>Existing controllers.json?</> Recipe may replace assets/controllers.json — merge Stimulus entries from vendor/symfinity/poker-planner/install/assets/controllers.json if you customized the file.
-
-Docs: vendor/symfinity/poker-planner/docs/installation.md#symfony-docker
+<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/poker-planner</>

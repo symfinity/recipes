@@ -1,0 +1,10 @@
+{
+    "bundles": {
+        "Symfinity\\FormUiExtensionsBundle\\FormUiExtensionsBundle": [
+            "all"
+        ]
+    },
+    "copy-from-package": {
+        "config/packages/symfinity_form_ui.yaml": "%CONFIG_DIR%/packages/symfinity_form_ui.yaml"
+    }
+}

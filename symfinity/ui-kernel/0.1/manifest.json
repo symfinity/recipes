@@ -3,8 +3,5 @@
         "Symfinity\\UiKernel\\UiKernelBundle": [
             "all"
         ]
-    },
-    "copy-from-package": {
-        "config/packages/symfinity_ui_kernel.yaml": "%CONFIG_DIR%/packages/symfinity_ui_kernel.yaml"
     }
 }

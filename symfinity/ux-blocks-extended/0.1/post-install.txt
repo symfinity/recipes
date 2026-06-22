@@ -1,0 +1,11 @@
+                       ___ __       __ __         
+.-----.--.--.--------.'  _|__.-----|__|  |_.--.--.
+|__ --|  |  |  |  |  |   _|  |  |  |  |   _|  |  |
+|_____|___  |__|__|__|__| |__|__|__|__|____|___  |
+      |_____|                              |_____|
+
+<bg=blue;fg=white> Symfinity </>  symfinity/ux-blocks-extended
+
+<fg=yellow>UX Blocks Extended</> — Compound UX Twig components: cards, alerts, dialogs, empty states, and layout shells.
+
+<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/ux-blocks-extended</>

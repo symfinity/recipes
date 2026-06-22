@@ -1,0 +1,11 @@
+                       ___ __       __ __         
+.-----.--.--.--------.'  _|__.-----|__|  |_.--.--.
+|__ --|  |  |  |  |  |   _|  |  |  |  |   _|  |  |
+|_____|___  |__|__|__|__| |__|__|__|__|____|___  |
+      |_____|                              |_____|
+
+<bg=blue;fg=white> Symfinity </>  symfinity/form-ui-extensions-bundle
+
+<fg=yellow>Form extensions</> — symfinity_form_ui FormView vars for buttons, wizard, uploads, and field groups; set theme.enabled for ux-blocks rendering.
+
+<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/form-ui-extensions-bundle</>

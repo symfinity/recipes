@@ -1,7 +1,0 @@
-  * symfinity/ui-themer installed (dev/test only).
-
-    Requires symfinity/ui-kernel for theme validation and preview.
-    Author UI: /ui-themer (APP_ENV=dev)
-    Import review: /ui-themer/import-tokens
-
-    Docs: vendor/symfinity/ui-themer/docs/quickstart.md

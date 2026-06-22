@@ -1,2 +1,0 @@
-ux_blocks_core:
-    resource: '@SymfinityUxBlocksCoreBundle/config/routes.yaml'

@@ -4,8 +4,8 @@
 |_____|___  |__|__|__|__| |__|__|__|__|____|___  |
       |_____|                              |_____|
 
-<bg=blue;fg=white> Symfinity </>  symfinity/ui-profiler
+<bg=blue;fg=white> Symfinity </>  symfinity/ui-action
 
-<fg=yellow>UI Profiler</> — Web Developer Toolbar / Profiler chrome overlay.
+<fg=yellow>UI Action</> — Native HTTP action semantics validation (navigate, submit, delete, download).
 
-<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/ui-profiler</>
+<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/ui-action</>
