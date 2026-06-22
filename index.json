@@ -4,10 +4,16 @@
         "symfinity/font-manager": [
             "0.1"
         ],
+        "symfinity/form-ui-extensions-bundle": [
+            "0.1"
+        ],
         "symfinity/omnia-ipsum": [
             "0.1"
         ],
         "symfinity/poker-planner": [
+            "0.1"
+        ],
+        "symfinity/ui-action": [
             "0.1"
         ],
         "symfinity/ui-kernel": [
@@ -16,13 +22,16 @@
         "symfinity/ui-profiler": [
             "0.1"
         ],
-        "symfinity/ui-themer": [
-            "0.1"
-        ],
         "symfinity/ux-blocks": [
             "0.1"
         ],
         "symfinity/ux-blocks-core": [
+            "0.1"
+        ],
+        "symfinity/ux-blocks-extended": [
+            "0.1"
+        ],
+        "symfinity/ux-blocks-form": [
             "0.1"
         ]
     },

@@ -1,9 +1,9 @@
 {
     "manifests": {
-        "symfinity/ux-blocks": {
+        "symfinity/ux-blocks-extended": {
             "manifest": {
                 "bundles": {
-                    "Symfinity\\UxBlocks\\SymfinityUxBlocksBundle": [
+                    "Symfinity\\UxBlocksExtended\\SymfinityUxBlocksExtendedBundle": [
                         "all"
                     ]
                 },
@@ -14,15 +14,15 @@
                     "|_____|___  |__|__|__|__| |__|__|__|__|____|___  |",
                     "      |_____|                              |_____|",
                     "",
-                    "<bg=blue;fg=white> Symfinity </>  symfinity/ux-blocks",
+                    "<bg=blue;fg=white> Symfinity </>  symfinity/ux-blocks-extended",
                     "",
-                    "<fg=yellow>UX Blocks</> \u2014 Registry schema and shared test helpers for the UX Blocks component family.",
+                    "<fg=yellow>UX Blocks Extended</> \u2014 Compound UX Twig components: cards, alerts, dialogs, empty states, and layout shells.",
                     "",
-                    "<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/ux-blocks</>"
+                    "<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/ux-blocks-extended</>"
                 ]
             },
             "files": [],
-            "ref": "15d2fd61399de569a0173ca4d557c46d8df19c3b"
+            "ref": "d609a7d983153d667c99308668566e94fb4be79c"
         }
     }
 }

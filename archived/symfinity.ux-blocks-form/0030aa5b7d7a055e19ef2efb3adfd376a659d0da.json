@@ -1,9 +1,9 @@
 {
     "manifests": {
-        "symfinity/ux-blocks": {
+        "symfinity/ux-blocks-form": {
             "manifest": {
                 "bundles": {
-                    "Symfinity\\UxBlocks\\SymfinityUxBlocksBundle": [
+                    "Symfinity\\UxBlocksForm\\SymfinityUxBlocksFormBundle": [
                         "all"
                     ]
                 },
@@ -14,15 +14,15 @@
                     "|_____|___  |__|__|__|__| |__|__|__|__|____|___  |",
                     "      |_____|                              |_____|",
                     "",
-                    "<bg=blue;fg=white> Symfinity </>  symfinity/ux-blocks",
+                    "<bg=blue;fg=white> Symfinity </>  symfinity/ux-blocks-form",
                     "",
-                    "<fg=yellow>UX Blocks</> \u2014 Registry schema and shared test helpers for the UX Blocks component family.",
+                    "<fg=yellow>UX Blocks Form</> \u2014 Form domain Twig components for labels, inputs, compounds, and field shells.",
                     "",
-                    "<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/ux-blocks</>"
+                    "<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/ux-blocks-form</>"
                 ]
             },
             "files": [],
-            "ref": "15d2fd61399de569a0173ca4d557c46d8df19c3b"
+            "ref": "0030aa5b7d7a055e19ef2efb3adfd376a659d0da"
         }
     }
 }

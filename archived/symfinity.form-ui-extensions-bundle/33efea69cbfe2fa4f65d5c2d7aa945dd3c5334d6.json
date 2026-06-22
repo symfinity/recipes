@@ -1,15 +1,14 @@
 {
     "manifests": {
-        "symfinity/ui-profiler": {
+        "symfinity/form-ui-extensions-bundle": {
             "manifest": {
                 "bundles": {
-                    "Symfinity\\UiProfiler\\UiProfilerBundle": [
-                        "dev",
-                        "test"
+                    "Symfinity\\FormUiExtensionsBundle\\FormUiExtensionsBundle": [
+                        "all"
                     ]
                 },
                 "copy-from-package": {
-                    "config/packages/symfinity_ui_profiler.yaml": "%CONFIG_DIR%/packages/symfinity_ui_profiler.yaml"
+                    "config/packages/symfinity_form_ui.yaml": "%CONFIG_DIR%/packages/symfinity_form_ui.yaml"
                 },
                 "post-install-output": [
                     "                       ___ __       __ __         ",
@@ -18,15 +17,15 @@
                     "|_____|___  |__|__|__|__| |__|__|__|__|____|___  |",
                     "      |_____|                              |_____|",
                     "",
-                    "<bg=blue;fg=white> Symfinity </>  symfinity/ui-profiler",
+                    "<bg=blue;fg=white> Symfinity </>  symfinity/form-ui-extensions-bundle",
                     "",
-                    "<fg=yellow>UI Profiler</> \u2014 Web Developer Toolbar / Profiler chrome overlay.",
+                    "<fg=yellow>Form extensions</> \u2014 symfinity_form_ui FormView vars for buttons, wizard, uploads, and field groups; set theme.enabled for ux-blocks rendering.",
                     "",
-                    "<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/ui-profiler</>"
+                    "<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/form-ui-extensions-bundle</>"
                 ]
             },
             "files": [],
-            "ref": "bd14b594f1ed74b2ca81ccc9ef148d9e3605a3dd"
+            "ref": "33efea69cbfe2fa4f65d5c2d7aa945dd3c5334d6"
         }
     }
 }

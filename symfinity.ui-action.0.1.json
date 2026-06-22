@@ -1,12 +1,8 @@
 {
     "manifests": {
-        "symfinity/ux-blocks": {
+        "symfinity/ui-action": {
             "manifest": {
-                "bundles": {
-                    "Symfinity\\UxBlocks\\SymfinityUxBlocksBundle": [
-                        "all"
-                    ]
-                },
+                "bundles": [],
                 "post-install-output": [
                     "                       ___ __       __ __         ",
                     ".-----.--.--.--------.'  _|__.-----|__|  |_.--.--.",
@@ -14,15 +10,15 @@
                     "|_____|___  |__|__|__|__| |__|__|__|__|____|___  |",
                     "      |_____|                              |_____|",
                     "",
-                    "<bg=blue;fg=white> Symfinity </>  symfinity/ux-blocks",
+                    "<bg=blue;fg=white> Symfinity </>  symfinity/ui-action",
                     "",
-                    "<fg=yellow>UX Blocks</> \u2014 Registry schema and shared test helpers for the UX Blocks component family.",
+                    "<fg=yellow>UI Action</> \u2014 Native HTTP action semantics validation (navigate, submit, delete, download).",
                     "",
-                    "<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/ux-blocks</>"
+                    "<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/ui-action</>"
                 ]
             },
             "files": [],
-            "ref": "15d2fd61399de569a0173ca4d557c46d8df19c3b"
+            "ref": "fb302a3ce699dcfbcb3015007c3ab9769bbc86c3"
         }
     }
 }
