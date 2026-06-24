@@ -6,6 +6,6 @@
 
 <bg=blue;fg=white> Symfinity </>  symfinity/font-manager
 
-<fg=yellow>Dev dependency</> - Google Font locking and Fonttrio pairing import for theme CSS variables; not for production runtime.
+<fg=yellow>Font Manager</> — Multi-provider font delivery for Symfony — CDN in dev, locked local assets in prod.
 
 <fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/font-manager</>

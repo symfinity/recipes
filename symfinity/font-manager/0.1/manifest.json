@@ -1,8 +1,7 @@
 {
     "bundles": {
         "Symfinity\\FontManager\\FontManagerBundle": [
-            "dev",
-            "test"
+            "all"
         ]
     },
     "copy-from-package": {
