@@ -1,0 +1,12 @@
+{
+    "bundles": {
+        "Symfinity\\SymfinityDocs\\SymfinityDocsBundle": [
+            "all"
+        ]
+    },
+    "copy-from-package": {
+        "config/packages/symfinity_docs.yaml": "%CONFIG_DIR%/packages/symfinity_docs.yaml",
+        "config/dogfood/symfinity_docs_routes.yaml": "%CONFIG_DIR%/routes/symfinity_docs_routes.yaml",
+        "config/routes/ui_kernel_theme.yaml": "%CONFIG_DIR%/routes/ui_kernel_theme.yaml"
+    }
+}

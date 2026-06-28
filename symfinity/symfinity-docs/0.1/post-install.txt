@@ -1,0 +1,9 @@
+                       ___ __       __ __         
+.-----.--.--.--------.'  _|__.-----|__|  |_.--.--.
+|__ --|  |  |  |  |  |   _|  |  |  |  |   _|  |  |
+|_____|___  |__|__|__|__| |__|__|__|__|____|___  |
+      |_____|                              |_____|
+
+<bg=blue;fg=white> Symfinity </>  symfinity/symfinity-docs
+
+<fg=yellow>Symfinity Docs</> — Symfinity Docs
