@@ -6,4 +6,8 @@
 
 <bg=blue;fg=white> Symfinity </>  symfinity/symfinity-docs
 
-<fg=yellow>Symfinity Docs</> — Symfinity Docs
+<fg=yellow>Symfinity Docs</> — package-first handbook runtime
+
+  * Copy <comment>DOCS_BASE_URL=https://symfinity.net/docs</> to <comment>.env.local</> when overriding the default origin
+  * Import handbook routes — see <comment>docs/installation.md</>
+  * Populate <comment>vendor/symfinity/symfinity-docs/generated/</> before smoke-testing pages
