@@ -1,0 +1,28 @@
+{
+    "manifests": {
+        "symfinity/ux-blocks-interactive": {
+            "manifest": {
+                "bundles": {
+                    "Symfinity\\UxBlocksInteractive\\SymfinityUxBlocksInteractiveBundle": [
+                        "all"
+                    ]
+                },
+                "post-install-output": [
+                    "                       ___ __       __ __         ",
+                    ".-----.--.--.--------.'  _|__.-----|__|  |_.--.--.",
+                    "|__ --|  |  |  |  |  |   _|  |  |  |  |   _|  |  |",
+                    "|_____|___  |__|__|__|__| |__|__|__|__|____|___  |",
+                    "      |_____|                              |_____|",
+                    "",
+                    "<bg=blue;fg=white> Symfinity </>  symfinity/ux-blocks-interactive",
+                    "",
+                    "<fg=yellow>UX Blocks Interactive</> \u2014 Stimulus-backed interactive widgets with blocks.int fragments (tabs, drawers, menus, toasts, scheme switch).",
+                    "",
+                    "<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/ux-blocks-interactive</>"
+                ]
+            },
+            "files": [],
+            "ref": "1b8ecc2b9ba224c14a3abfcc368cee4db341c302"
+        }
+    }
+}

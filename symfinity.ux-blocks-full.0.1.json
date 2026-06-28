@@ -1,0 +1,40 @@
+{
+    "manifests": {
+        "symfinity/ux-blocks-full": {
+            "manifest": {
+                "bundles": {
+                    "Symfinity\\UxBlocksCore\\SymfinityUxBlocksCoreBundle": [
+                        "all"
+                    ],
+                    "Symfinity\\UxBlocksForm\\SymfinityUxBlocksFormBundle": [
+                        "all"
+                    ],
+                    "Symfinity\\UxBlocksExtended\\SymfinityUxBlocksExtendedBundle": [
+                        "all"
+                    ],
+                    "Symfinity\\UxBlocksInteractive\\SymfinityUxBlocksInteractiveBundle": [
+                        "all"
+                    ],
+                    "Symfinity\\UxBlocksLive\\SymfinityUxBlocksLiveBundle": [
+                        "all"
+                    ]
+                },
+                "post-install-output": [
+                    "                       ___ __       __ __         ",
+                    ".-----.--.--.--------.'  _|__.-----|__|  |_.--.--.",
+                    "|__ --|  |  |  |  |  |   _|  |  |  |  |   _|  |  |",
+                    "|_____|___  |__|__|__|__| |__|__|__|__|____|___  |",
+                    "      |_____|                              |_____|",
+                    "",
+                    "<bg=blue;fg=white> Symfinity </>  symfinity/ux-blocks-full",
+                    "",
+                    "<fg=yellow>UX Blocks Full</> \u2014 Metapackage installing the complete official catalog: core, form, extended, interactive, and live tiers.",
+                    "",
+                    "<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/ux-blocks-full</>"
+                ]
+            },
+            "files": [],
+            "ref": "3e04198b72f7860bc01bf112bd8eb5c2aaf7b2cb"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "manifests": {
+        "symfinity/ux-blocks-marketing": {
+            "manifest": {
+                "bundles": {
+                    "Symfinity\\UxBlocksMarketing\\SymfinityUxBlocksMarketingBundle": [
+                        "all"
+                    ]
+                },
+                "post-install-output": [
+                    "                       ___ __       __ __         ",
+                    ".-----.--.--.--------.'  _|__.-----|__|  |_.--.--.",
+                    "|__ --|  |  |  |  |  |   _|  |  |  |  |   _|  |  |",
+                    "|_____|___  |__|__|__|__| |__|__|__|__|____|___  |",
+                    "      |_____|                              |_____|",
+                    "",
+                    "<bg=blue;fg=white> Symfinity </>  symfinity/ux-blocks-marketing",
+                    "",
+                    "<fg=yellow>UX Blocks Marketing</> \u2014 Landing and campaign section components with blocks.marketing fragments.",
+                    "",
+                    "<fg=cyan>Docs:</> <fg=blue>https://docs.symfinity.dev/ux-blocks-marketing</>"
+                ]
+            },
+            "files": [],
+            "ref": "948b621ebf571dc51a9830cdf277d10022598807"
+        }
+    }
+}

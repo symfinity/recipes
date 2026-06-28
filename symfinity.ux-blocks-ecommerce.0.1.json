@@ -1,0 +1,30 @@
+{
+    "manifests": {
+        "symfinity/ux-blocks-ecommerce": {
+            "manifest": {
+                "bundles": {
+                    "Symfinity\\UxBlocksEcommerce\\SymfinityUxBlocksEcommerceBundle": [
+                        "all"
+                    ]
+                },
+                "post-install-output": [
+                    "                       ___ __       __ __         ",
+                    ".-----.--.--.--------.'  _|__.-----|__|  |_.--.--.",
+                    "|__ --|  |  |  |  |  |   _|  |  |  |  |   _|  |  |",
+                    "|_____|___  |__|__|__|__| |__|__|__|__|____|___  |",
+                    "      |_____|                              |_____|",
+                    "",
+                    "<bg=blue;fg=white> Symfinity </>  symfinity/ux-blocks-ecommerce",
+                    "",
+                    "<fg=yellow>UX Blocks Ecommerce</> \u2014 shop section catalog with blocks.shop fragments (product, cart, checkout, orders).",
+                    "",
+                    "<fg=green>Includes</> symfinity/ux-blocks-marketing at ^0.1 for landing cross-sell sections.",
+                    "",
+                    "<fg=cyan>Docs:</> <fg=blue>https://docs.symfinity.dev/ux-blocks-ecommerce</>"
+                ]
+            },
+            "files": [],
+            "ref": "44c3ee75a5dcd8cbb362304650f21a6e43c07fac"
+        }
+    }
+}

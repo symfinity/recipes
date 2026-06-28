@@ -1,0 +1,34 @@
+{
+    "manifests": {
+        "symfinity/privacy-settings-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Symfinity\\PrivacySettingsBundle\\PrivacySettingsBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-package": {
+                    "config/packages/symfinity_privacy_settings.yaml": "%CONFIG_DIR%/packages/symfinity_privacy_settings.yaml",
+                    "config/routes/symfinity_privacy_settings.yaml": "%CONFIG_DIR%/routes/symfinity_privacy_settings.yaml"
+                },
+                "post-install-output": [
+                    "                       ___ __       __ __         ",
+                    ".-----.--.--.--------.'  _|__.-----|__|  |_.--.--.",
+                    "|__ --|  |  |  |  |  |   _|  |  |  |  |   _|  |  |",
+                    "|_____|___  |__|__|__|__| |__|__|__|__|____|___  |",
+                    "      |_____|                              |_____|",
+                    "",
+                    "<bg=blue;fg=white> Symfinity </>  symfinity/privacy-settings-bundle",
+                    "",
+                    "<fg=yellow>Privacy settings</> \u2014 strict `data-privacy-category` markup, consent capture, and form-tier ConsentBanner UI.",
+                    "",
+                    "<fg=cyan>Requires:</> `symfinity/ux-blocks-form` (installed transitively). Suggest `symfinity/ui-kernel` for themed apps.",
+                    "",
+                    "<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/privacy-settings-bundle</>"
+                ]
+            },
+            "files": [],
+            "ref": "2654d114a09a2b8fac62ba9bd172138a5bee2458"
+        }
+    }
+}

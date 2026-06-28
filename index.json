@@ -13,6 +13,9 @@
         "symfinity/poker-planner": [
             "0.1"
         ],
+        "symfinity/privacy-settings-bundle": [
+            "0.1"
+        ],
         "symfinity/ui-action": [
             "0.1"
         ],
@@ -28,10 +31,25 @@
         "symfinity/ux-blocks-core": [
             "0.1"
         ],
+        "symfinity/ux-blocks-ecommerce": [
+            "0.1"
+        ],
         "symfinity/ux-blocks-extended": [
             "0.1"
         ],
         "symfinity/ux-blocks-form": [
+            "0.1"
+        ],
+        "symfinity/ux-blocks-full": [
+            "0.1"
+        ],
+        "symfinity/ux-blocks-interactive": [
+            "0.1"
+        ],
+        "symfinity/ux-blocks-live": [
+            "0.1"
+        ],
+        "symfinity/ux-blocks-marketing": [
             "0.1"
         ]
     },
