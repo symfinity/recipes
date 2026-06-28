@@ -1,0 +1,19 @@
+{
+    "bundles": {
+        "Symfinity\\UxBlocksCore\\SymfinityUxBlocksCoreBundle": [
+            "all"
+        ],
+        "Symfinity\\UxBlocksForm\\SymfinityUxBlocksFormBundle": [
+            "all"
+        ],
+        "Symfinity\\UxBlocksExtended\\SymfinityUxBlocksExtendedBundle": [
+            "all"
+        ],
+        "Symfinity\\UxBlocksInteractive\\SymfinityUxBlocksInteractiveBundle": [
+            "all"
+        ],
+        "Symfinity\\UxBlocksLive\\SymfinityUxBlocksLiveBundle": [
+            "all"
+        ]
+    }
+}

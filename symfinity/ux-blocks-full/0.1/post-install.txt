@@ -1,0 +1,11 @@
+                       ___ __       __ __         
+.-----.--.--.--------.'  _|__.-----|__|  |_.--.--.
+|__ --|  |  |  |  |  |   _|  |  |  |  |   _|  |  |
+|_____|___  |__|__|__|__| |__|__|__|__|____|___  |
+      |_____|                              |_____|
+
+<bg=blue;fg=white> Symfinity </>  symfinity/ux-blocks-full
+
+<fg=yellow>UX Blocks Full</> — Metapackage installing the complete official catalog: core, form, extended, interactive, and live tiers.
+
+<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/ux-blocks-full</>

@@ -1,0 +1,11 @@
+{
+    "bundles": {
+        "Symfinity\\PrivacySettingsBundle\\PrivacySettingsBundle": [
+            "all"
+        ]
+    },
+    "copy-from-package": {
+        "config/packages/symfinity_privacy_settings.yaml": "%CONFIG_DIR%/packages/symfinity_privacy_settings.yaml",
+        "config/routes/symfinity_privacy_settings.yaml": "%CONFIG_DIR%/routes/symfinity_privacy_settings.yaml"
+    }
+}

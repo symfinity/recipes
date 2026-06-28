@@ -1,0 +1,11 @@
+                       ___ __       __ __         
+.-----.--.--.--------.'  _|__.-----|__|  |_.--.--.
+|__ --|  |  |  |  |  |   _|  |  |  |  |   _|  |  |
+|_____|___  |__|__|__|__| |__|__|__|__|____|___  |
+      |_____|                              |_____|
+
+<bg=blue;fg=white> Symfinity </>  symfinity/ux-blocks-marketing
+
+<fg=yellow>UX Blocks Marketing</> — Landing and campaign section components with blocks.marketing fragments.
+
+<fg=cyan>Docs:</> <fg=blue>https://docs.symfinity.dev/ux-blocks-marketing</>

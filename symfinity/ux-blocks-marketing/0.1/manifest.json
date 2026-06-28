@@ -1,0 +1,7 @@
+{
+    "bundles": {
+        "Symfinity\\UxBlocksMarketing\\SymfinityUxBlocksMarketingBundle": [
+            "all"
+        ]
+    }
+}

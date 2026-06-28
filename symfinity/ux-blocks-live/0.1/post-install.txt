@@ -1,0 +1,11 @@
+                       ___ __       __ __         
+.-----.--.--.--------.'  _|__.-----|__|  |_.--.--.
+|__ --|  |  |  |  |  |   _|  |  |  |  |   _|  |  |
+|_____|___  |__|__|__|__| |__|__|__|__|____|___  |
+      |_____|                              |_____|
+
+<bg=blue;fg=white> Symfinity </>  symfinity/ux-blocks-live
+
+<fg=yellow>UX Blocks Live</> — LiveComponent widgets with blocks.live fragments (combobox, date pickers, tags input, data table chrome).
+
+<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/ux-blocks-live</>

@@ -1,0 +1,13 @@
+                       ___ __       __ __         
+.-----.--.--.--------.'  _|__.-----|__|  |_.--.--.
+|__ --|  |  |  |  |  |   _|  |  |  |  |   _|  |  |
+|_____|___  |__|__|__|__| |__|__|__|__|____|___  |
+      |_____|                              |_____|
+
+<bg=blue;fg=white> Symfinity </>  symfinity/privacy-settings-bundle
+
+<fg=yellow>Privacy settings</> — strict `data-privacy-category` markup, consent capture, and form-tier ConsentBanner UI.
+
+<fg=cyan>Requires:</> `symfinity/ux-blocks-form` (installed transitively). Suggest `symfinity/ui-kernel` for themed apps.
+
+<fg=cyan>Docs:</> <fg=blue>https://github.com/symfinity/privacy-settings-bundle</>

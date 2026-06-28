@@ -1,0 +1,13 @@
+                       ___ __       __ __         
+.-----.--.--.--------.'  _|__.-----|__|  |_.--.--.
+|__ --|  |  |  |  |  |   _|  |  |  |  |   _|  |  |
+|_____|___  |__|__|__|__| |__|__|__|__|____|___  |
+      |_____|                              |_____|
+
+<bg=blue;fg=white> Symfinity </>  symfinity/ux-blocks-ecommerce
+
+<fg=yellow>UX Blocks Ecommerce</> — shop section catalog with blocks.shop fragments (product, cart, checkout, orders).
+
+<fg=green>Includes</> symfinity/ux-blocks-marketing at ^0.1 for landing cross-sell sections.
+
+<fg=cyan>Docs:</> <fg=blue>https://docs.symfinity.dev/ux-blocks-ecommerce</>
