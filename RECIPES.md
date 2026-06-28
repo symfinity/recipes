@@ -9,6 +9,7 @@ Additional recipes can be found on the [Main Recipes Repository](https://github.
 | [symfinity/omnia-ipsum](https://packagist.org/packages/symfinity/omnia-ipsum) | [0.1](../../../tree/main/symfinity/omnia-ipsum/0.1) |
 | [symfinity/poker-planner](https://packagist.org/packages/symfinity/poker-planner) | [0.1](../../../tree/main/symfinity/poker-planner/0.1) |
 | [symfinity/privacy-settings-bundle](https://packagist.org/packages/symfinity/privacy-settings-bundle) | [0.1](../../../tree/main/symfinity/privacy-settings-bundle/0.1) |
+| [symfinity/symfinity-docs](https://packagist.org/packages/symfinity/symfinity-docs) | [0.1](../../../tree/main/symfinity/symfinity-docs/0.1) |
 | [symfinity/ui-action](https://packagist.org/packages/symfinity/ui-action) | [0.1](../../../tree/main/symfinity/ui-action/0.1) |
 | [symfinity/ui-kernel](https://packagist.org/packages/symfinity/ui-kernel) | [0.1](../../../tree/main/symfinity/ui-kernel/0.1) |
 | [symfinity/ui-profiler](https://packagist.org/packages/symfinity/ui-profiler) | [0.1](../../../tree/main/symfinity/ui-profiler/0.1) |
